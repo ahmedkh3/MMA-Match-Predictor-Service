@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "MatchPredictor.Controllers.FightersController",
+    "Method": "GetFighters",
+    "RelativePath": "api/Fighters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchPredictor.Controllers.FightersController",
+    "Method": "PostFighter",
+    "RelativePath": "api/Fighters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fighter",
+        "Type": "MatchPredictor.Model.Fighter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchPredictor.Controllers.FightersController",
+    "Method": "GetFighter",
+    "RelativePath": "api/Fighters/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchPredictor.Controllers.FightersController",
+    "Method": "PutFighter",
+    "RelativePath": "api/Fighters/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fighter",
+        "Type": "MatchPredictor.Model.Fighter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchPredictor.Controllers.FightersController",
+    "Method": "DeleteFighter",
+    "RelativePath": "api/Fighters/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchPredictor.Controllers.FightersController",
+    "Method": "GetFighterByName",
+    "RelativePath": "api/Fighters/Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MatchPredictor.Controllers.FightersController",
+    "Method": "PredictWinnerByName",
+    "RelativePath": "api/Fighters/PredictByName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MatchPredictor.Model.PredictionByNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

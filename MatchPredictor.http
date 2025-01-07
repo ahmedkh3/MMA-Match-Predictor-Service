@@ -1,0 +1,7 @@
+@MatchPredictor_HostAddress = http://localhost:5091
+
+GET {{MatchPredictor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

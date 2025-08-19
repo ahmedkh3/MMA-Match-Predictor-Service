@@ -1,0 +1,141 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-04d534fe.css",
+      "PackagePath": "staticwebassets\\assets\\index-04d534fe.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-090dcf79.js",
+      "PackagePath": "staticwebassets\\assets\\index-090dcf79.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-3f5c643b.js",
+      "PackagePath": "staticwebassets\\assets\\index-3f5c643b.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-7ffd4236.js",
+      "PackagePath": "staticwebassets\\assets\\index-7ffd4236.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-c248f6df.js",
+      "PackagePath": "staticwebassets\\assets\\index-c248f6df.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-d7212b28.js",
+      "PackagePath": "staticwebassets\\assets\\index-d7212b28.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-de0e521b.js",
+      "PackagePath": "staticwebassets\\assets\\index-de0e521b.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-e0f204ab.js",
+      "PackagePath": "staticwebassets\\assets\\index-e0f204ab.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-e34de7de.js",
+      "PackagePath": "staticwebassets\\assets\\index-e34de7de.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\assets\\index-f9b74c33.js",
+      "PackagePath": "staticwebassets\\assets\\index-f9b74c33.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\dist\\assets\\index-04d534fe.css",
+      "PackagePath": "staticwebassets\\dist\\assets\\index-04d534fe.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\dist\\assets\\index-d7212b28.js",
+      "PackagePath": "staticwebassets\\dist\\assets\\index-d7212b28.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\dist\\index.html",
+      "PackagePath": "staticwebassets\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\package-lock.json",
+      "PackagePath": "staticwebassets\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\postcss.config.js",
+      "PackagePath": "staticwebassets\\postcss.config.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\App.jsx",
+      "PackagePath": "staticwebassets\\src\\App.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\components\\FighterCard.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\FighterCard.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\components\\FighterSearch.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\FighterSearch.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\components\\LoadingSpinner.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\LoadingSpinner.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\components\\PredictionButton.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\PredictionButton.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\components\\WeightClassFilter.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\WeightClassFilter.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\components\\WinnerDisplay.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\WinnerDisplay.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\index.css",
+      "PackagePath": "staticwebassets\\src\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\main.jsx",
+      "PackagePath": "staticwebassets\\src\\main.jsx"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\src\\services\\fighterService.js",
+      "PackagePath": "staticwebassets\\src\\services\\fighterService.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\tailwind.config.js",
+      "PackagePath": "staticwebassets\\tailwind.config.js"
+    },
+    {
+      "Id": "C:\\Users\\Ahmed\\OneDrive\\Desktop\\the vault\\MatchPredictor\\MatchPredictor\\wwwroot\\vite.config.js",
+      "PackagePath": "staticwebassets\\vite.config.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MatchPredictor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MatchPredictor.props",
+      "PackagePath": "build\\MatchPredictor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MatchPredictor.props",
+      "PackagePath": "buildMultiTargeting\\MatchPredictor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MatchPredictor.props",
+      "PackagePath": "buildTransitive\\MatchPredictor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

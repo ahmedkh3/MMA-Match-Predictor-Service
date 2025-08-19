@@ -16,6 +16,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Add CORS support
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 builder.Services.AddScoped<PredictionService>();
 
 var app = builder.Build();
@@ -23,17 +34,28 @@ var app = builder.Build();
 // Configure the HTTP request pipeline in development
 if (app.Environment.IsDevelopment())
 {
-    // Enable Swagger only in Development mode for testing API
+    // Enable Swagger for API testing at /swagger
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "MMA Tracker API V1");
-        c.RoutePrefix = string.Empty; // This makes Swagger available at the root URL
+        c.RoutePrefix = "swagger"; // Move Swagger to /swagger route
     });
 }
+else
+{
+    // In production, serve the built React app
+    app.UseDefaultFiles();
+}
+
+// Enable CORS
+app.UseCors();
 
 // Enable HTTPS Redirection
 app.UseHttpsRedirection();
+
+// Serve static files (our React frontend)
+app.UseStaticFiles();
 
 // Enable Authorization middleware (can be expanded with Authentication later if needed)
 app.UseAuthorization();
@@ -41,6 +63,8 @@ app.UseAuthorization();
 // Map the controllers to routes (this allows your API endpoints to work)
 app.MapControllers();
 
-// Run the application
+// Serve the React app for any non-API routes
+app.MapFallbackToFile("index.html");
 
+// Run the application
 app.Run();

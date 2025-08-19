@@ -137,3 +137,5 @@ C:\Users\Ahmed\OneDrive\Desktop\the vault\MatchPredictor\MatchPredictor\obj\Debu
 C:\Users\Ahmed\OneDrive\Desktop\the vault\MatchPredictor\MatchPredictor\obj\Debug\net8.0\MatchPredictor.pdb
 C:\Users\Ahmed\OneDrive\Desktop\the vault\MatchPredictor\MatchPredictor\obj\Debug\net8.0\MatchPredictor.genruntimeconfig.cache
 C:\Users\Ahmed\OneDrive\Desktop\the vault\MatchPredictor\MatchPredictor\obj\Debug\net8.0\ref\MatchPredictor.dll
+C:\Users\Ahmed\OneDrive\Desktop\the vault\MatchPredictor\MatchPredictor\bin\Debug\net8.0\MatchPredictor.staticwebassets.runtime.json
+C:\Users\Ahmed\OneDrive\Desktop\the vault\MatchPredictor\MatchPredictor\bin\Debug\net8.0\package-lock.json

@@ -12,6 +12,14 @@ namespace MatchPredictor.Services
             double f1 = 0.00;
             double f2 = 0.00;
             //weight checking
+            if (megaAdvantageThisGuyCanNOTWin(fighter1, fighter2))
+            {
+                return fighter2;
+            }
+            if(megaAdvantageThisGuyCanNOTWin(fighter2, fighter1))
+            {
+                return fighter1;
+            }
             var weight = EdgeGiver(fighter1, fighter2, fighter => (double)fighter.Weight);
             if (weight == fighter1)
             {
@@ -29,6 +37,7 @@ namespace MatchPredictor.Services
                     addEdge(ref f2, .15);
                 }
             }
+            
             //height checking
             var height = EdgeGiver(fighter1, fighter2, fighter => (double)fighter.Height);
             if (height == fighter1)
@@ -65,6 +74,7 @@ namespace MatchPredictor.Services
                     addEdge(ref f2, .15);
                 }
             }
+            
             //win percentage calculator
             //gets fighter 1 k/d ratio
             var k1 = (double)fighter1.Wins;
@@ -291,6 +301,14 @@ namespace MatchPredictor.Services
             {
                 return false;
             }
+        }
+        public static bool megaAdvantageThisGuyCanNOTWin(Fighter fighter1, Fighter fighter2)
+        {
+            if (fighter1.Weight + 20.00 < fighter2.Weight)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

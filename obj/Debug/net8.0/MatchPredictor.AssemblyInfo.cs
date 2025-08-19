@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatchPredictor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d8ecd4322c8acbc21286e5a10c2748ceec748db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+314fcab07e1b09e7d6f43e3f8aa6e8e65f729306")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatchPredictor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatchPredictor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
